@@ -8,6 +8,15 @@ namespace ACM.BL
 {
     class Product
     {
-        
+        public Product()
+        {
+
+        }
+
+        public Product(int productId)
+        {
+            ProductId = productId;
+        }
+
     }
 }
