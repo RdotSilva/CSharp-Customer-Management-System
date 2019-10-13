@@ -15,10 +15,8 @@ namespace ACM.BL
 
         public string FullName
         {
-            get { return LastName + "," + FirstName; }
+            get { return LastName + ", " + FirstName; }
 
         }
-
-
     }
 }
