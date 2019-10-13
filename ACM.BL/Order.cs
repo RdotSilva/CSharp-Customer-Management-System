@@ -1,4 +1,6 @@
-﻿namespace ACM.BL
+﻿using System;
+
+namespace ACM.BL
 {
     public class Order
     {
@@ -9,7 +11,9 @@
 
         public Order(int orderId)
         {
-            orderId = orderId;
+            OrderId = orderId;
         }
+        public DateTimeOffset? OrderDate { get; set; }
+        public int OrderId { get; private set; }
     }
 }
