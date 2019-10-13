@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class Class1
+    public class Customer
     {
+        
+
     }
 }
