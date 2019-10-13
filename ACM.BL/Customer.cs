@@ -11,6 +11,7 @@ namespace ACM.BL
         public int CustomerId { get; set; }
         public string EmailAddress { get; set; }
         public string FirstName { get; set; }
+        public static int InstanceCount { get; set; }
 
         private string _lastName;
 
