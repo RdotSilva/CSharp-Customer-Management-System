@@ -26,5 +26,11 @@ namespace ACM.BL
             }
             return customer;
         }
+        public bool Save(Customer customer)
+        {
+            // Code that saves the passed in customer
+
+            return true;
+        }
     }
 }
