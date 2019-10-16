@@ -20,6 +20,12 @@
             }
             return product;
         }
+        public bool Save(Product product)
+        {
+            // Code that saves the passed in product
+
+            return true;
+        }
 
     }
 }
