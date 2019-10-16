@@ -23,5 +23,11 @@ namespace ACM.BL
 
             return order;
         }
+        public bool Save(Order order)
+        {
+            // Code that saves the passed in order
+
+            return true;
+        }
     }
 }
