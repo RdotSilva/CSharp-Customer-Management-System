@@ -25,5 +25,12 @@
             }
             return address;
         }
+
+        public bool Save(Address address)
+        {
+            // Code that saves the passed in address.
+
+            return true;
+        }
     }
 }
