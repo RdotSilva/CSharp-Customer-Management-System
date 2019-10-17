@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ACM.BL
 {
@@ -17,6 +18,7 @@ namespace ACM.BL
         public int CustomerId { get; set; }
         public DateTimeOffset? OrderDate { get; set; }
         public int OrderId { get; private set; }
+        public List<OrderItem> OrderItems { get; set; }
         public int ShippingAddressId { get; set; }
 
         public bool Validate()
