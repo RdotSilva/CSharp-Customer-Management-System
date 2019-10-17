@@ -5,7 +5,7 @@ namespace ACM.BL
 {
     public class Order
     {
-        public Order()
+        public Order() : this(0)
         {
 
         }
@@ -13,6 +13,7 @@ namespace ACM.BL
         public Order(int orderId)
         {
             OrderId = orderId;
+            OrderItems = new List<OrderItem>();
         }
 
         public int CustomerId { get; set; }
