@@ -8,7 +8,7 @@ namespace ACM.BL
 {
     public class Customer
     {
-        public Customer()
+        public Customer() : this(0)
         {
             
         }
