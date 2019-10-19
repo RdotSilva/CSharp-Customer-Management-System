@@ -75,7 +75,7 @@ namespace ACM.BLTest
         [TestMethod]
         public void ValidateValid()
         {
-            //-- Arrange
+            // Arrange
             var customer = new Customer
             {
                 LastName = "Baggins",
@@ -84,16 +84,17 @@ namespace ACM.BLTest
 
             var expected = true;
 
-            //-- Act
+            // Act
             var actual = customer.Validate();
 
-            //-- Assert
+            // Assert
             Assert.AreEqual(expected, actual);
         }
+
         [TestMethod]
         public void ValidateMissingLastName()
         {
-            //-- Arrange
+            // Arrange
             var customer = new Customer
             {
                 EmailAddress = "fbaggins@hobbiton.me"
@@ -101,10 +102,10 @@ namespace ACM.BLTest
 
             var expected = false;
 
-            //-- Act
+            // Act
             var actual = customer.Validate();
 
-            //-- Assert
+            // Assert
             Assert.AreEqual(expected, actual);
         }
     }
