@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public abstract class EntityBase
+    public enum EntityStateOption
     {
+        Active,
+        Deleted
     }
+    
 }
