@@ -19,6 +19,5 @@ namespace ACM.BL
         public bool IsValid => Validate();
 
         public abstract bool Validate();
-
     }
 }
