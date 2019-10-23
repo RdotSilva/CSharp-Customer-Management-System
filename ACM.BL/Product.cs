@@ -24,6 +24,8 @@ namespace ACM.BL
         public int ProductId { get; set; }
         public string ProductName { get; set; }
 
+        public override string ToString() => ProductName;
+
         public bool Validate()
         {
             var isValid = true;
