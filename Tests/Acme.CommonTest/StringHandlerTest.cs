@@ -1,4 +1,5 @@
 ﻿using System;
+using Acme.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Acme.CommonTest
@@ -7,8 +8,17 @@ namespace Acme.CommonTest
     public class StringHandlerTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void InsertSpacesTestValid()
         {
+            // Arrange
+            var source = "SonicScrewdriver";
+            var expected = "Sonic Screwdriver";
+
+            // Act
+            var actual = source.InsertSpaces();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
         }
     }
 }
